@@ -1,17 +1,16 @@
 {
-  "name": "@rafaelrinaldi/hn-cli",
-  "version": "1.7.1",
+  "name": "hn-cli",
+  "version": "1.8.0",
   "description": "CLI to browse Hacker News",
   "license": "MIT",
-  "repository": "rafaelrinaldi/hn-cli",
+  "repository": "lrusnac/hn-cli",
   "bugs": {
-    "url": "https://github.com/rafaelrinaldi/hn-cli/issues"
+    "url": "https://github.com/lrusnac/hn-cli/issues"
   },
-  "homepage": "https://github.com/rafaelrinaldi/hn-cli#readme",
+  "homepage": "https://github.com/lrusnac/hn-cli#readme",
   "author": {
-    "name": "Rafael Rinaldi",
-    "email": "rafael@rinaldi.io",
-    "url": "rinaldi.io"
+    "name": "Rafael Rinaldi, Leonid Rusnac",
+    "email": "leonidrusnac4@gmail.com"
   },
   "bin": {
     "hn": "./bin/hn-cli"
@@ -53,6 +52,6 @@
     "pinkie-promise": "^2.0.0"
   },
   "devDependencies": {
-    "xo": "^0.12.1"
+    "xo": "^0.16.0"
   }
 }
