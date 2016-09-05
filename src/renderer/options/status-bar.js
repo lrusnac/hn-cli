@@ -1,13 +1,13 @@
 module.exports = {
   left: {
-    width: '100%-1',
+    width: '100%-2',
     height: 1,
     left: 1,
     bottom: 0,
-    fg: 'white',
-    bg: 'black',
+    bg: 'white',
+    fg: 'black',
     padding: {
-      left: 1
+      left: 0
     }
   },
 
