@@ -7,7 +7,7 @@
 ## Install
 
 ```sh
-$ npm install -g @rafaelrinaldi/hn-cli
+$ npm install -g lrusnac/hn-cli
 ```
 
 ## Usage
