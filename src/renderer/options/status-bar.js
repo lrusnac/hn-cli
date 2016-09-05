@@ -1,6 +1,6 @@
 module.exports = {
   left: {
-    width: '100%-2',
+    width: '100%-1',
     height: 1,
     left: 1,
     bottom: 0,

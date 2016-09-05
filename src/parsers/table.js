@@ -5,17 +5,11 @@ const time = require('./time');
 
 module.exports = data => {
   return [[
-    'Title',
-    'By',
-    'When'
+    'Title'
   ]].concat(
       data.map(item => {
-        const when = time(item.time);
-
         return [
-          `${item.title}`,
-          `${item.by}`,
-          moment(when).fromNow()
+          `${item.title}`
         ];
       })
     );
